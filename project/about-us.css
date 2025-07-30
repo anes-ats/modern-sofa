@@ -1,0 +1,160 @@
+header {
+  background-color: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.menu li a.active {
+  border-bottom: 2px solid #333;
+}
+
+.about .hero {
+  position: relative;
+  text-align: center;
+}
+.about .hero img {
+  width: 85%;
+  height: auto;
+  object-fit: cover;
+}
+.about .hero h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #fff;
+  background: rgba(0,0,0,0.4);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem 0;
+}
+.feature-box {
+  text-align: center;
+  width: 20%;
+}
+.highlight img {
+  width: 85%;
+  border-radius: 12px;
+  margin-left: 70px;
+}
+.stats ul {
+  list-style: none;
+  padding: 0;
+}
+.stats li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+}
+.blog-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.blog-cards .card {
+  width: 30%;
+  text-align: center;
+}
+.blog-cards .card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.stats {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.stats h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.stats ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+.stats li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.stats li span {
+  font-weight: bold;
+  color: #000;
+}
+footer {
+  background-color: #1d1d1d;
+  color: #fff;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.footer-column {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+footer h4 {
+  margin-bottom: 15px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+  color: #bbb;
+}
+
+footer p {
+  color: #bbb;
+  line-height: 1.5;
+}
+.icon {
+  cursor: pointer;
+  user-select: none;
+}
